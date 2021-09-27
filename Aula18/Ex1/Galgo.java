@@ -12,6 +12,9 @@ public final class Galgo extends Cachorro{
                 + " | Velocidade: " + velocidade;
 
         System.out.println("Constructor Galgo:" + printConstructorGalgo);
+
+        System.out.println(printConstructorGalgo);
+
     }
 
     public void correr(){

@@ -14,7 +14,11 @@ public class Cachorro extends Animal {
                 + " | Cor: " + cor
                 + " | Som: " + som;
 
+
         System.out.println("Constructor Cachorro:" + printConstructorCachorro);
+
+        System.out.println(printConstructorCachorro);
+
     }
 
     public String getCor() {
