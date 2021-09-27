@@ -1,0 +1,22 @@
+1. Construa o código para o exemplo dos animais da UML vista em aula 
+- Implemente as classes Animal e Cachorro, faça com que os construtores sejam chamados de forma encadeada e os dados sejam passados por parâmetro.
+- Construa duas classes para raças de cachorro conforme  você quiser.
+- Também construa a classe cliente (main) conforme necessário para utilizar estas classes. 
+- Todos os pedidos de dados para o usuário e impressões na tela devem ser feitos a partir da classe cliente e não de dentro das outras classes
+
+
+
+2. Considerando o contexto de uma imobiliária que necessita de um sistema para cadastro dos imóveis a venda. Crie a classe Imovel, lembrando que todo imóvel possui código, endereço, proprietário/a, comprador/a e um preço.
+- Crie uma classe ImovelNaPlanta, que herda Imovel e possui um desconto no preço e um prazo de entrega. Crie um método para calcular esse desconto e métodos de acesso e impressão para os atributos da classe.
+- Crie uma classe ImovelProntoNovo, que herda Imovel e possui um adicional no preço. Crie um método para calcular este adicional e métodos de acesso e impressão para os atributos da classe.
+- Na classe cliente instancie um imóvel de cada tipo e simule duas compras, uma para cada imóvel. Não deve ser possível instanciar objetos da classe Imovel a partir da classe cliente.
+- As classes devem ser encapsuladas e os construtores devem estar encadeados. Todos os dados devem ser pedidos e exibidos a partir da main().
+
+
+
+3. Uma casa de eventos precisa de um sistema para a venda de ingressos para seus eventos
+- Crie uma classe chamada Ingresso que possui o valor e o nome do comprador.
+- Crie uma classe VIP, que herda Ingresso e possui o valor adicional do ingresso Vip. Faça um método que calcula o valor a ser adicionado em cima do valor da classe mãe (o valor adicional deve ser passado por parâmetro). Também faça um método que imprime o ingresso VIP (considerando que o valor deste ingresso já tenha sido calculado) com todas suas informações.
+- Crie uma classe Normal, que herda Ingresso e possui um método para imprimr o ingresso normal com todas suas informações.
+- Faça uma classe cliente para criar os ingressos. Dê ao/à usuário/a opção para escolher entre ingresso normal e VIP. Conforme a escolha, diga qual o tipo do ingresso escolhido e faça o cadastro. Por fim, imprima o ingresso correspondente
+- Todas as classes devem estar encapsuladas, devem ser usados construtores encadeados, todos os dados devem ser pedidos e exibidos a partir da classe cliente

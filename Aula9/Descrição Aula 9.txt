@@ -1,0 +1,15 @@
+1. Leia do usuário o tempo em segundos e escreva em horas, minutos e segundos. Utilize cinco métodos: para a leitura e escrita de dados e para obtenção de horas, minutos e segundos a partir do tempo em segundos.
+
+
+
+2. Leia um número decimal (até 3 dígitos) e escreva o seu equivalente em numeração romana. Utilize métodos para obter cada dígito do número decimal e para a transformação de numeração decimal para romana.
+Dica 1: 1 = I, 5 = V, 10 = X, 50 = L, 100 = C, 500 = D, 1.000 = M;
+Dica 2: utilize um vetor guardando a tradução para cada um dos dígitos.
+
+
+
+3. Escreva um número por extenso aceitando números de até 4 dígitos, usando métodos para as traduções e vetores de Strings que guardam cada tradução (ex.: unidades = { “zero”, “um”, “dois”, ...,“nove”}).
+
+
+
+4. Identifique as classes e implemente um programa para a seguinte especificação: Um supermercado vende diferentes tipos de produtos. Cada produto tem um preço e uma quantidade em estoque. Um pedido de um cliente é composto de itens comprados, onde cada item especifica o produto que o cliente deseja e a respectiva quantidade. Esse pedido pode ser pago em dinheiro, cheque ou cartão.
