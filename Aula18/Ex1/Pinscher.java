@@ -11,10 +11,7 @@ public final class Pinscher extends Cachorro{
         this.printConstructorPinscher = printConstructorCachorro
                 + " | Irritabilidade: " + irritabilidade;
 
-
         System.out.println("Constructor Pinscher:" + printConstructorPinscher);
-
-        System.out.println(printConstructorPinscher);
 
     }
 

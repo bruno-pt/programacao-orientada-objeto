@@ -11,21 +11,12 @@ public class Animal {
         this.peso = peso;
         this.habitos = habitos;
 
-
         this.printConstructorAnimal =
                 " Nome: " + nome
                 + " | Peso: " + peso
                 + " | Habitos: " + habitos;
 
         System.out.println("Constructor Animal:" + printConstructorAnimal);
-
-        this.printConstructorAnimal = "Constructor Animal:"
-                + " Nome: " + nome
-                + " | Peso: " + peso
-                + " | Habitos: " + habitos;
-
-        System.out.println(printConstructorAnimal);
-
     }
 
     public String getNome() {
